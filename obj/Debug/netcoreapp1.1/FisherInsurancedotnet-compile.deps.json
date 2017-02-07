@@ -14,7 +14,7 @@
   },
   "targets": {
     ".NETCoreApp,Version=v1.1": {
-      "FisherInsurance/1.0.0": {
+      "fisherInsurance/1.0.0": {
         "dependencies": {
           "Microsoft.NETCore.App": "1.1.0",
           "Microsoft.AspNetCore.Mvc": "1.1.0",
@@ -28,7 +28,7 @@
           "Microsoft.Extensions.Configuration.CommandLine": "1.1.0"
         },
         "compile": {
-          "FisherInsurance.dll": {}
+          "fisherInsurance.dll": {}
         }
       },
       "Libuv/1.9.1": {
@@ -2467,7 +2467,7 @@
       }
     },
     ".NETCoreApp,Version=v1.1/": {
-      "FisherInsurance/1.0.0": {
+      "fisherInsurance/1.0.0": {
         "dependencies": {
           "Microsoft.NETCore.App": "1.1.0",
           "Microsoft.AspNetCore.Mvc": "1.1.0",
@@ -2481,7 +2481,7 @@
           "Microsoft.Extensions.Configuration.CommandLine": "1.1.0"
         },
         "runtime": {
-          "FisherInsurance.dll": {}
+          "fisherInsurance.dll": {}
         }
       },
       "Libuv/1.9.1": {
@@ -4810,7 +4810,7 @@
     }
   },
   "libraries": {
-    "FisherInsurance/1.0.0": {
+    "fisherInsurance/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
