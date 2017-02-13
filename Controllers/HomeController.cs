@@ -1,3 +1,4 @@
+using System;
 using Microsoft.AspNetCore.Mvc;
 
 public class HomeController : Controller
@@ -5,6 +6,7 @@ public class HomeController : Controller
 {
     public IActionResult Index()
     {
-    return Ok("This is the index of the HomeController");
+   // return Ok("This is the index of the HomeController");
+    return View();
     }
 }

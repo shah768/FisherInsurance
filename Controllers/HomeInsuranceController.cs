@@ -1,22 +1,23 @@
 using System;
 using Microsoft.AspNetCore.Mvc;
-namespace FisherInsurance.Models{
+namespace FisherInsurance.Models {
 
-public class AutoController : Controller
+[Route ("Homeinsurance")]
+public class HomeInsuranceController : Controller
 
 {
-    
     public IActionResult Index()
     {
+    //return Ok("This is the index of the HomeInsuranceController");
     return View();
-    //return Ok("This is the index of the AutoController");
     }
+
     public IActionResult Quote()
     {
         Quote quote = new Quote
         {
             Id = 345,
-            Product = "Auto Insurance",
+            Product = "HomeInsurance",
             ExpireDate = DateTime.Now.AddDays(45),
             Price = 45.00M
         };
